@@ -32,6 +32,6 @@ function pegarDados() {
         localStorage.setItem("listaIdades", JSON.stringify(listaIdades));
 
         alert("Obrigado por preencher o formulário!");
-        window.location.href = "../templates/pagina2.html";
-    }
+        window.location.href = url_for('templates', filename = 'pagina2.html');
+    };
 };
