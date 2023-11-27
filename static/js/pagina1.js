@@ -34,4 +34,4 @@ function pegarDados() {
         alert("Obrigado por preencher o formulário!");
         window.location.href = "../templates/pagina2.html";
     };
-};
+}
